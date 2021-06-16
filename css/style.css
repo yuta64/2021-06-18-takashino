@@ -1,0 +1,431 @@
+.logo {
+  width: px;
+  height: 30px;
+  padding-right: 300px;
+  padding-top: 5px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+}
+.nav-list {
+  display: flex;
+  width: bold;
+  color: rgb(124, 108, 108);
+}
+.header-nav-item {
+  margin-right: 30px;
+  list-style: none;
+}
+.relative {
+  position: relative;
+}
+.relative--img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+}
+.absolute {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  font-size: 60px;
+  font-family: "Indie Flower", cursive;
+  line-height: 100px;
+  color: purple;
+}
+.grow {
+  color: rgb(34, 121, 121);
+}
+.text {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  font-size: 26px;
+  color: purple;
+  padding-top: 40px;
+}
+.sei {
+  color: rgb(34, 121, 121);
+}
+.text2 {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  color: darkgray;
+  font-weight: lighter;
+}
+.news {
+  padding-left: 380px;
+  padding-top: 40px;
+  color: purple;
+  font-family: "Indie Flower", cursive;
+  font-size: 24px;
+}
+.news-1 {
+  padding-left: 380px;
+  padding-top: 10px;
+  font-weight: bolder;
+  color: darkgray;
+  font-size: 20px;
+}
+.news-2 {
+  padding-top: 30px;
+  padding-left: 380px;
+  margin-top: 10px;
+}
+.news-list {
+  list-style: none;
+  border: 1px solid;
+  border-color: gray;
+  border-left: transparent;
+  border-right: transparent;
+  padding: 20px;
+  font-size: 12px;
+}
+.news-aka {
+  border-radius: 50px;
+  background-color: rgb(218, 69, 138);
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: seashell;
+  margin: 40px;
+}
+.news-parent {
+  width: 1000px;
+}
+.parent-about {
+  margin-top: 30px;
+  background-color: rgb(230, 225, 225);
+  height: 150px;
+  flex-direction: column;
+}
+.parent-about2 {
+  flex-direction: column;
+}
+.parent-about3 {
+  display: flex;
+  background-color: rgb(230, 225, 225);
+}
+
+.about-logo {
+  font-family: "Indie Flower", cursive;
+  color: rgb(161, 52, 161);
+  font-size: 28px;
+  text-align: center;
+  padding-top: 10px;
+}
+.tec {
+  text-align: center;
+  font-size: 29px;
+  font-weight: bold;
+  color: rgb(114, 108, 108);
+  padding-top: 10px;
+}
+.text-4 {
+  color: rgb(83, 78, 78);
+  font-size: 20px;
+  margin-bottom: 40px;
+  padding-left: 180px;
+}
+.text-5 {
+  color: rgb(83, 78, 78);
+  font-size: 20px;
+  padding-left: 180px;
+}
+.about-img {
+  width: 300px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.service-text-1 {
+  padding-top: 40px;
+  font-family: "Indie Flower", cursive;
+  color: rgb(161, 52, 161);
+  font-size: 25px;
+  padding-left: 60px;
+}
+.service-text-2 {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 60px;
+  font-weight: bolder;
+  color: darkgrey;
+}
+.grid-parent {
+  display: grid;
+  grid-template-rows: 230px 230px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.box-1 {
+  grid-column: 2/4;
+  grid-row: 1/3;
+  background: purple;
+}
+.box-2 {
+  grid-column: 4/6;
+  grid-row: 1/2;
+  background: rgb(172, 31, 172);
+  display: flex;
+}
+.box2-2 {
+  flex-direction: column;
+}
+
+.box-3 {
+  grid-column: 4/6;
+  grid-row: 2/3;
+  background: rgb(228, 72, 228);
+  display: flex;
+}
+.img--s {
+  width: 200px;
+  height: 200px;
+  padding-left: 130px;
+}
+.ing--ss {
+  width: 200px;
+  height: 200px;
+}
+.service-text3 {
+  color: rgb(236, 219, 219);
+  font-size: x-large;
+  text-align: center;
+}
+.service-text4 {
+  color: rgb(236, 219, 219);
+  text-align: center;
+  font-size: larger;
+}
+.text3-3 {
+  font-size: 18px;
+  color: rgb(236, 219, 219);
+  text-align: center;
+}
+.text3-4 {
+  font-size: 16px;
+  color: rgb(236, 219, 219);
+  line-height: 25px;
+  text-align: center;
+  padding-top: 30px;
+}
+.blog-text {
+  height: 100px;
+  background-color: rgb(230, 225, 225);
+  position: relative;
+  margin-top: 60px;
+}
+.blog-text1 {
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+  color: purple;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+.blog-text2 {
+  position: absolute;
+  font-size: 30px;
+  color: rgb(129, 119, 119);
+  top: 90px;
+  left: 60px;
+}
+.blog-parent {
+  height: 350px;
+  background-color: rgb(230, 225, 225);
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-parent {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+.practice-card {
+  position: relative;
+  width: 60%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px 30px;
+}
+
+.practice-card:after {
+  position: absolute;
+  content: "blog";
+  top: 0;
+  left: 0;
+  color: aliceblue;
+  background: rgb(172, 40, 172);
+  padding: 5px 15px;
+  border-top-left-radius: 30px;
+}
+.card-img img {
+  width: 100%;
+  border-radius: 30px 30px 0px 0px;
+}
+.card-content {
+  padding: 15px 25px;
+  background: white;
+  border-radius: 0 0 30px 30px;
+}
+.card-ttl {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  color: rgb(131, 125, 125);
+}
+.tag {
+  font-size: 14px;
+  text-align: right;
+  display: flex;
+  justify-content: space-around;
+}
+.card-date {
+  padding-right: 10px;
+  font-size: 12px;
+  color: rgb(165, 135, 135);
+}
+.card-tag {
+  font-size: 12px;
+  color: rgb(165, 135, 135);
+}
+.bot {
+  padding-top: 30px;
+  height: 150px;
+  background: rgb(230, 225, 225);
+  display: flex;
+}
+.bot-bot {
+  width: 200px;
+  padding-top: 15px;
+
+  border-radius: 30px;
+  background: snow;
+  text-align: center;
+  margin: 50px auto;
+  justify-content: center;
+  color: purple;
+  border: solid 2px purple;
+}
+.company {
+  position: relative;
+}
+.company-text {
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+  color: purple;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+.company-text2 {
+  color: rgb(129, 119, 119);
+  font-size: 30px;
+  position: absolute;
+  left: 100px;
+  top: 90px;
+}
+.company-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 180px;
+}
+table,
+td {
+  border: 1px solid black;
+  font-size: 20px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+.company-11 {
+  background-color: rgb(177, 173, 173);
+  font-weight: bold;
+  color: rgb(97, 88, 88);
+}
+.company-12 {
+  color: rgb(105, 96, 96);
+}
+.picture {
+  margin-top: 60px;
+  height: 50%;
+  display: flex;
+  position: relative;
+}
+.text-s {
+  position: absolute;
+  color: aliceblue;
+  font-size: 50px;
+  top: 90px;
+  left: 250px;
+
+  font-weight: bold;
+}
+.text-ss {
+  position: absolute;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: bold;
+  top: 90px;
+  left: 880px;
+}
+.text-o {
+  margin-top: 80px;
+  font-size: 24px;
+  color: gray;
+  text-align: center;
+}
+.senp {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.sen {
+  background-color: purple;
+  width: 2px;
+  height: 80px;
+  padding-top: 60px;
+}
+
+.mail--btn {
+  width: 300px;
+  padding: 20px 0;
+  color: aliceblue;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #eb2de1, #af1589);
+  text-align: center;
+  box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+  margin: 100px auto;
+  display: block;
+  text-decoration: none;
+  position: relative;
+}
+.mail--btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  background: url(../img/img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0, -50%);
+}
+.c {
+  background: rgb(230, 225, 225);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+small {
+  padding-top: 10px;
+}
