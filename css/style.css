@@ -11,6 +11,7 @@
   height: 70px;
   padding: 0 30px;
 }
+
 .nav-list {
   display: flex;
   width: bold;
@@ -60,23 +61,24 @@
   padding-top: 3%;
 }
 .news {
-  padding-left: 380px;
+  padding-left: 20%;
   padding-top: 40px;
   color: purple;
   font-family: "Indie Flower", cursive;
   font-size: 24px;
 }
 .news-1 {
-  padding-left: 380px;
+  padding-left: 20%;
   padding-top: 10px;
   font-weight: bolder;
   color: darkgray;
   font-size: 20px;
 }
+
 .news-2 {
   padding-top: 30px;
-  padding-left: 380px;
-  margin-top: 10px;
+  margin: 0 auto;
+  width: 60%;
 }
 .news-list {
   list-style: none;
@@ -86,6 +88,7 @@
   border-right: transparent;
   padding: 20px;
   font-size: 12px;
+  text-align: left;
 }
 .news-aka {
   border-radius: 50px;
@@ -99,7 +102,7 @@
   margin: 40px;
 }
 .news-parent {
-  width: 1000px;
+  margin: 0 auto;
 }
 .parent-about {
   margin-top: 30px;
@@ -108,11 +111,12 @@
   flex-direction: column;
 }
 .parent-about2 {
-  flex-direction: column;
+  margin-left: 4%;
 }
 .parent-about3 {
   display: flex;
   background-color: rgb(230, 225, 225);
+  justify-content: space-around;
 }
 
 .about-logo {
@@ -131,22 +135,18 @@
 }
 .text-4 {
   color: rgb(83, 78, 78);
-  font-size: 20px;
-  margin-bottom: 40px;
-  padding-left: 10%;
+  font-size: 1.5vw;
+  padding-bottom: 1%;
 }
 .text-5 {
   color: rgb(83, 78, 78);
-  font-size: 20px;
-  padding-left: 10%;
+  font-size: 1.5vw;
 }
 .about-img {
   width: 35%;
   padding-right: 2%;
   padding-bottom: 5%;
   padding-top: 2%;
-
-  margin-left: 25%;
 }
 .service-text-1 {
   padding-top: 40px;
@@ -161,19 +161,20 @@
   padding-left: 60px;
   font-weight: bolder;
   color: darkgrey;
+  margin-bottom: 2%;
 }
 .grid-parent {
   display: grid;
-  grid-template-rows: 230px 230px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .box-1 {
-  grid-column: 2/4;
+  grid-column: 2/5;
   grid-row: 1/3;
   background: purple;
 }
 .box-2 {
-  grid-column: 4/6;
+  grid-column: 5/8;
   grid-row: 1/2;
   background: rgb(172, 31, 172);
   display: flex;
@@ -183,19 +184,20 @@
 }
 
 .box-3 {
-  grid-column: 4/6;
+  grid-column: 5/8;
   grid-row: 2/3;
   background: rgb(228, 72, 228);
   display: flex;
 }
 .img--s {
-  width: 200px;
-  height: 200px;
-  padding-left: 130px;
+  width: 40%;
+  height: 40%;
+  padding-left: 30%;
 }
 .ing--ss {
-  width: 200px;
-  height: 200px;
+  width: 50%;
+  height: 60%;
+  padding-top: 10%;
 }
 .service-text3 {
   color: rgb(236, 219, 219);
@@ -204,19 +206,24 @@
 }
 .service-text4 {
   color: rgb(236, 219, 219);
-  text-align: center;
+
   font-size: larger;
 }
 .text3-3 {
-  font-size: 18px;
+  font-size: 1vw;
   color: rgb(236, 219, 219);
-  text-align: center;
+
+  line-height: 250%;
+  padding-left: 15%;
+  padding-right: 10%;
 }
 .text3-4 {
-  font-size: 14px;
+  font-size: 0.8vw;
   color: rgb(236, 219, 219);
-  line-height: 20px;
+  line-height: 250%;
+  padding-top: 1%;
 }
+
 .blog-text {
   height: 100px;
   background-color: rgb(230, 225, 225);
@@ -248,12 +255,13 @@
 .blog-parent {
   display: flex;
   justify-content: space-around;
-  padding-top: 50px;
-  padding-left: 150px;
+  padding-top: 10%;
+  padding-left: 5%;
+  margin: 0 auto;
 }
 .practice-card {
   position: relative;
-  width: 60%;
+  width: 90%;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   border-radius: 30px 30px;
 }
@@ -278,10 +286,11 @@
   border-radius: 0 0 30px 30px;
 }
 .card-ttl {
-  font-size: 18px;
+  font-size: 1.2vw;
   margin-bottom: 30px;
   font-weight: 400;
   color: rgb(131, 125, 125);
+  text-align: center;
 }
 .tag {
   font-size: 2%;
@@ -291,27 +300,29 @@
 }
 .card-date {
   padding-right: 10px;
-  font-size: 10px;
+  font-size: 0.2vw;
   color: rgb(165, 135, 135);
 }
 .card-tag {
-  font-size: 10px;
+  font-size: 0.2vw;
   color: rgb(165, 135, 135);
 }
+
 .bot {
-  padding-top: 30px;
-  height: 150px;
+  height: 5%;
   background: rgb(230, 225, 225);
   display: flex;
 }
+
 .bot-bot {
   width: 200px;
   padding-top: 15px;
-
+  padding-bottom: 15px;
   border-radius: 30px;
   background: snow;
   text-align: center;
-  margin: 50px auto;
+  margin: 8% auto;
+  margin-bottom: 1%;
   justify-content: center;
   color: purple;
   border: solid 2px purple;
@@ -339,22 +350,27 @@
   justify-content: center;
   padding-top: 180px;
 }
-table,
-td {
-  border: 1px solid black;
-  font-size: 20px;
-  padding-right: 200px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10px;
+table {
+  width: 65%;
+
+  padding-top: 50px;
 }
 .company-11 {
-  background-color: rgb(177, 173, 173);
+  background-color: #e6e1e1;
   font-weight: bold;
   color: rgb(97, 88, 88);
+
+  padding-left: 3%;
+  padding-right: 6%;
+  width: 45%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.7vw;
 }
 .company-12 {
   color: rgb(105, 96, 96);
+  font-size: 1.5vw;
+  margin-right: 60%;
 }
 .picture {
   margin-top: 60px;
@@ -371,18 +387,18 @@ td {
 .text-s {
   position: absolute;
   color: aliceblue;
-  font-size: 300%;
-  top: 20%;
+  font-size: 3vw;
+  top: 25%;
   left: 20%;
   font-weight: bold;
 }
 .text-ss {
   position: absolute;
   color: aliceblue;
-  font-size: 300%;
+  font-size: 3vw;
   font-weight: bold;
-  top: 20%;
-  left: 60%;
+  top: 25%;
+  left: 62%;
 }
 .text-o {
   margin-top: 80px;
@@ -393,13 +409,13 @@ td {
 .senp {
   display: flex;
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 1%;
 }
 .sen {
   background-color: purple;
   width: 2px;
-  height: 80px;
-  padding-top: 60px;
+  height: 5%;
+  padding-top: 5%;
 }
 
 .mail--btn {
@@ -410,7 +426,7 @@ td {
   background: linear-gradient(90deg, #eb2de1, #af1589);
   text-align: center;
   box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
-  margin: 100px auto;
+  margin: 5% auto;
   display: block;
   text-decoration: none;
   position: relative;
